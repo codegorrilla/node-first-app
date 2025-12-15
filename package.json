@@ -1,13 +1,16 @@
 {
-  "name": "first-app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+	"name": "first-app",
+	"version": "1.0.0",
+	"description": "Complete node.js guide",
+	"keywords": [],
+	"license": "ISC",
+	"author": "Sanjib Adhya",
+	"type": "commonjs",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon app.js"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.11"
+	}
 }

@@ -17,6 +17,9 @@
 		"express": "^5.2.1"
 	},
 	"devDependencies": {
-		"nodemon": "^3.1.11"
+		"ejs": "^3.1.10",
+		"express-handlebars": "^8.0.4",
+		"nodemon": "^3.1.11",
+		"pug": "^3.0.3"
 	}
 }
